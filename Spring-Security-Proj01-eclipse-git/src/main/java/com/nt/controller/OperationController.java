@@ -11,4 +11,15 @@ public class OperationController {
 		System.out.println("hello");
 		return "welcome";
 	}
+	
+	@GetMapping("/add")
+	public int addition(int x, int y) {
+		return x+y;
+	}
+	
+	@GetMapping("/sub")
+	public int subtraction(int x, int y) {
+		System.out.println("sub()");
+		return x-y;
+	}
 }
