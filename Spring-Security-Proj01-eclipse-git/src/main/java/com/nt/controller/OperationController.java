@@ -20,6 +20,9 @@ public class OperationController {
 	@GetMapping("/sub")
 	public int subtraction(int x, int y) {
 		System.out.println("sub()");
+
 		return x-y;
+
+		
 	}
 }
