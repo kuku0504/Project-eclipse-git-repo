@@ -8,6 +8,7 @@ public class OperationController {
      
 	@GetMapping("/show")
 	public String home() {
+		System.out.println("hello");
 		return "welcome";
 	}
 }
